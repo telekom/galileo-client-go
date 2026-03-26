@@ -7,8 +7,10 @@ default_install_hook_types:
   - commit-msg
 
 repos:
-  # - repo: ...
-
+  - repo: https://codeberg.org/fsfe/reuse-tool
+    rev: v6.2.0
+    hooks:
+      - id: reuse
   - repo: https://github.com/compilerla/conventional-pre-commit
     rev: v4.4.0
     hooks:
