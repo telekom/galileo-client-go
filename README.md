@@ -8,6 +8,9 @@ SPDX-License-Identifier: Apache-2.0
 This is a client library for the Galileo email service.
 Examples demonstrating the usage of this library can be found in the [examples](./examples) directory.
 
+> [!NOTE]
+> The Galileo email service is not (yet) open source.
+
 ## How to get
 ```shell
 go get github.com/telekom/galileo-client-go
