@@ -8,6 +8,11 @@ SPDX-License-Identifier: Apache-2.0
 This is a client library for the Galileo email service.
 Examples demonstrating the usage of this library can be found in the [examples](./examples) directory.
 
+[![REUSE status](https://api.reuse.software/badge/github.com/telekom/galileo-client-go)](https://api.reuse.software/info/github.com/telekom/galileo-client-go)
+[![Go Reference](https://pkg.go.dev/badge/github.com/telekom/galileo-client-go.svg)](https://pkg.go.dev/github.com/telekom/galileo-client-go)
+[![Go Report Card](https://goreportcard.com/badge/github.com/telekom/galileo-client-go)](https://goreportcard.com/report/github.com/telekom/galileo-client-go)
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/telekom/galileo-client-go)
+
 > [!NOTE]
 > The Galileo email service is not (yet) open source.
 
