@@ -23,7 +23,10 @@ type Client struct {
 }
 
 func NewClient(opts ...*options.ClientOptions) *Client {
-	clientOpts := util.IfThenElse(len(opts) > 0, opts[0], options.Client())
+	clientOpts := options.Client()
+	if len(opts) > 0 {
+		clientOpts = opts[0]
+	}
 	client := &http.Client{
 		Timeout: clientOpts.Timeout,
 	}
